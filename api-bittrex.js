@@ -6,7 +6,7 @@
  * Copyright 2014-2017, Adrian Soluch - http://soluch.us/
  * Released under the MIT License
  * ============================================================ */
-var NodeBittrexApi = function() {
+var ApiBittrex = function() {
 
   'use strict';
 
@@ -320,4 +320,4 @@ var NodeBittrexApi = function() {
   };
 }();
 
-module.exports = NodeBittrexApi;
+module.exports = ApiBittrex;
