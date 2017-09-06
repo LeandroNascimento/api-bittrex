@@ -41,7 +41,7 @@ $ npm install api-bittrex
 
 In your app, import the module:
  ```sh
-    import * as bittrex from 'node.bittrex.api';
+    import * as bittrex from 'api-bittrex';
 ```
 ## Create an instance of the client
 

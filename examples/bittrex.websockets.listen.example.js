@@ -1,5 +1,5 @@
 
-const bittrex = require('../node.bittrex.api');
+const bittrex = require('../api-bittrex');
 
 const websocketsclient = bittrex.websockets.listen( function( data ) {
   if (data.M === 'updateSummaryState') {

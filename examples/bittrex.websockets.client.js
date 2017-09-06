@@ -1,5 +1,5 @@
 
-const bittrex = require('../node.bittrex.api');
+const bittrex = require('../api-bittrex');
 
 /**
  *  a bare client
