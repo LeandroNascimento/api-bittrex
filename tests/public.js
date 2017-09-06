@@ -1,5 +1,5 @@
 var assert = require('assert');
-var bittrex = require('../node.bittrex.api.js');
+var bittrex = require('../api-bittrex.js');
 
 describe('Bittrex public API', function() {
 

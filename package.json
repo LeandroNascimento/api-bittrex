@@ -1,7 +1,7 @@
 {
-  "name": "node.bittrex.api",
-  "version": "0.5.1",
-  "description": "Node Bittrex API - asynchronous node.js library for the Bittrex API https://bittrex.com/",
+  "name": "api-bittrex",
+  "version": "0.0.1",
+  "description": "API Bittrex - asynchronous node.js library for the Bittrex API https://bittrex.com/",
   "keywords": [
     "btc",
     "xbt",
@@ -9,11 +9,10 @@
     "altcoin",
     "bittrex"
   ],
-  "author": "Adrian Soluch ( https://github.com/n0mad01 )",
+  "author": "Leandro Nascimento ( https://github.com/leandronascimento )",
   "contributors": [],
   "license": "MIT",
   "dependencies": {
-    "JSONStream": ">= 0.8.4",
     "event-stream": ">= 3.1.5",
     "jsonic": "^0.3.0",
     "object-assign": "^4.1.1",
@@ -22,17 +21,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/n0mad01/node.bittrex.api"
+    "url": "https://github.com/leandronascimento/api-bittrex"
   },
-  "main": "node.bittrex.api.js",
+  "main": "api-bittrex.js",
   "engines": {
     "node": ">=0.10"
   },
   "bugs": {
-    "url": "https://github.com/n0mad01/node.bittrex.api/issues",
-    "email": "adrian.soluch@gmail.com"
+    "url": "https://github.com/leandronascimento/api-bittrex/issues",
+    "email": "fleandro.nascimento@gmail.com"
   },
-  "homepage": "https://github.com/n0mad01/node.bittrex.api",
+  "homepage": "https://github.com/leandronascimento/api-bittrex",
   "scripts": {
     "test": "mocha"
   },

@@ -1,5 +1,5 @@
 var assert = require('assert');
-var bittrex = require('../node.bittrex.api.js');
+var bittrex = require('../api-bittrex.js');
 var fs = require('fs');
 var config = JSON.parse(fs.readFileSync(__dirname+'/config.json'));
 

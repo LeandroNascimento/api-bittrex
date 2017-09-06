@@ -13,7 +13,6 @@ var NodeBittrexApi = function() {
   var request = require('request'),
     assign = require('object-assign'),
     hmac_sha512 = require('./hmac-sha512.js'),
-    JSONStream = require('JSONStream'),
     es = require('event-stream'),
     jsonic = require('jsonic'),
     signalR = require('signalr-client'),
@@ -103,7 +102,6 @@ var NodeBittrexApi = function() {
     switch (opts.stream) {
       case true:
         request(op)
-          .pipe(JSONStream.parse('*'))
           .pipe(es.mapSync(function(data) {
             callback(data);
             ((opts.verbose) ? console.log("streamed from " + op.uri + " in: %ds", (Date.now() - start) / 1000) : '');
